@@ -1,1 +1,23 @@
 /* Put welcome styles here */
+
+/* Put welcome styles here */
+
+.welcome {
+    background-color: rgb(255, 127, 80); /* Cor de fundo do componente Welcome */
+    padding: 40px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+    border-radius: 8px; /* Bordas arredondadas */
+    margin: 20px 0; /* Margem superior e inferior */
+  }
+  
+  .welcome__text {
+    font-size: 28px; /* Tamanho da fonte */
+    font-weight: bold; /* Peso da fonte */
+    color: #fff; /* Cor do texto */
+  }
+
+/* Comentário aqui */
+.selector {
+    color: red;
+  }
+    
