@@ -1,41 +1,11 @@
-/* Put header styles here */
-
-/* Put header styles here */
-
+/* Estilos gerais */
 .header {
-    position: sticky;
-    top: 0;
-    background-color: #fff; /* Cor de fundo do cabeçalho */
-    padding: 20px; /* Espaçamento interno */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
-    z-index: 1000; /* Para garantir que o cabeçalho fique acima de outros elementos */
-  }
-  
-  .header__title {
-    font-size: 24px; /* Tamanho da fonte do título */
-    font-weight: 600; /* Peso da fonte */
-    color: #333; /* Cor do texto */
-  }
-  
-  .navigation {
-    display: flex; /* Usar flexbox para disposição dos links */
-    justify-content: space-around; /* Espaçamento uniforme entre os links */
-    margin-top: 10px; /* Margem acima da navegação */
-  }
-  
-  .navigation__link {
-    text-decoration: none; /* Remover sublinhado */
-    color: #007BFF; /* Cor do texto dos links */
-    opacity: 0.7; /* Opacidade do texto */
-    transition: opacity 0.3s; /* Efeito de transição */
-  }
-  
-  .navigation__link:hover {
-    opacity: 1; /* Mudar a opacidade ao passar o mouse */
-  }
+    /* estilos aqui */
+}
 
-/* Comentário aqui */
-.selector {
-    color: red;
-  }
-  
+/* Adicione uma linha em branco aqui */
+@media (max-width: 600px) {
+    .header {
+        display: block; /* exemplo de estilo */
+    }
+}
