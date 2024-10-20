@@ -36,7 +36,7 @@ describe('Header component', () => {
   it('should have styles added with media', () => {
     // Simular um tamanho de tela maior para testar o estilo de media query
     cy.viewport(1280, 720);
-    
+
     // Verificar o valor esperado para o display dentro da media query
     cy.get('.header').should('have.css', 'display', 'flex');
   });
